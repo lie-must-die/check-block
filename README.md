@@ -4,6 +4,13 @@
 
 Полезен для диагностики блокировок ТСПУ, проверки REALITY-нод и маскирующих прокси.
 
+## Быстрый старт
+
+```bash
+curl -O https://raw.githubusercontent.com/lie-must-die/check-block/refs/heads/main/check_block.py
+python3 check_block.py <ip> <port> [sni]
+```
+
 ## Что проверяет
 
 Все четыре уровня проходят **за одно TCP-соединение**:
